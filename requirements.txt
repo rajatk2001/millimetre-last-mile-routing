@@ -1,0 +1,12 @@
+numpy
+pandas
+networkx
+scipy
+scikit-learn
+xgboost
+torch
+matplotlib
+osmnx
+ortools
+folium
+jupyter

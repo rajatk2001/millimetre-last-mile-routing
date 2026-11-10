@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Generated simulator data and ground truth
+lastmile_run/
+data/
+ground_truth/
+lastmile_data.zip
+
+# Generated analysis outputs and trained artifacts
+outputs/
+artifacts/
+lastmile_outputs.zip
+
+# OS/editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
