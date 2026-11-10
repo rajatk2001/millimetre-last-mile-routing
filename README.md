@@ -102,6 +102,14 @@ jupyter notebook
 
 Open `lastmile_pipeline.ipynb` and run the cells in order. The first run needs internet access when `USE_OSM = True`, because the road network is downloaded from OpenStreetMap.
 
+## Read the evaluation step by step
+
+The original notebook builds the simulator, trains the models, optimises delivery routes, and saves its evaluation files. A separate, more readable companion notebook explains those results in smaller steps:
+
+- `notebooks/MilliMetre_Results_Walkthrough.ipynb` — inspect delivery failures, compare classifier and travel-time metrics, calculate paired planner savings with confidence intervals, review the misspecification test, and view an exported rider plan.
+
+**Run order:** execute `lastmile_pipeline.ipynb` first; then open the walkthrough notebook. The walkthrough reads files from the generated `lastmile_run/` folder (or `/content/lastmile/` in Colab). It does not retrain the models.
+
 ## Files in this repository
 
 ```text
