@@ -75,7 +75,7 @@ There are limitations in the model results too. On road edges completely held ou
 
 ### Google Colab
 
-1. Open `lastmile_pipeline.ipynb` in Google Colab.
+1. Open `lastmile_pipeline (1).ipynb` in Google Colab.
 2. Keep `USE_OSM = True` to download the Bengaluru road network. This requires internet access.
 3. Set `FAST = True` for a shorter evaluation. Set it to `False` for the full 10-day evaluation.
 4. Choose **Runtime → Run all** and let the notebook run from top to bottom.
@@ -100,7 +100,7 @@ pip install -r requirements.txt
 jupyter notebook
 ```
 
-Open `lastmile_pipeline.ipynb` and run the cells in order. The first run needs internet access when `USE_OSM = True`, because the road network is downloaded from OpenStreetMap.
+Open `lastmile_pipeline (1).ipynb` and run the cells in order. The first run needs internet access when `USE_OSM = True`, because the road network is downloaded from OpenStreetMap.
 
 ## Read the evaluation step by step
 
@@ -108,14 +108,14 @@ The original notebook builds the simulator, trains the models, optimises deliver
 
 - `notebooks/MilliMetre_Results_Walkthrough.ipynb` — inspect delivery failures, compare classifier and travel-time metrics, calculate paired planner savings with confidence intervals, review the misspecification test, and view an exported rider plan.
 
-**Run order:** execute `lastmile_pipeline.ipynb` first; then open the walkthrough notebook. The walkthrough reads files from the generated `lastmile_run/` folder (or `/content/lastmile/` in Colab). It does not retrain the models.
+**Run order:** execute `lastmile_pipeline (1).ipynb` first; then open the walkthrough notebook. The walkthrough reads files from the generated `lastmile_run/` folder (or `/content/lastmile/` in Colab). It does not retrain the models.
 
 ## Files in this repository
 
 ```text
 millimetre-last-mile-routing/
 ├── README.md
-├── lastmile_pipeline.ipynb
+├── lastmile_pipeline (1).ipynb
 ├── requirements.txt
 └── .gitignore
 ```
